@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.footer__copyrigth {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: #ffff;
+  padding-bottom: 24px;
+}
