@@ -1,15 +1,12 @@
 .gallery {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   max-height: 100%;
-  margin: 0;
 }
 .gallery__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   max-width: 92.5%;
+  margin: auto;
 }
 .gallery__image {
   width: 100%;
