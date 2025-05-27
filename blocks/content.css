@@ -3,14 +3,16 @@
   flex-direction: column;
   align-items: center;
   color: #ffffff;
-  background-color: #2a2c2f;
   max-height: 100%;
 }
 
 .content__container {
   display: flex;
   flex-direction: column;
-  max-width: 74%;
+  max-width: 76.8%;
+}
+.content__gallery-container {
+  width: 100%;
 }
 
 @media screen and (max-width: 768px) {
