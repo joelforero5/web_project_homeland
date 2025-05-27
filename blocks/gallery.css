@@ -1,0 +1,30 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 100%;
+  margin: 0;
+}
+.gallery__content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 92.5%;
+}
+.gallery__image {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__content {
+    max-width: 93.75%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 320px) {
+  .gallery__content {
+    grid-template-columns: 1fr;
+    max-width: 90%;
+  }
+}
